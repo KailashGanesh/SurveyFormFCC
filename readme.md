@@ -1,4 +1,4 @@
-## Live site [here](https://kailashganesh.github.io/)
+## Live site [here](https://kailashganesh.github.io/SurveyFormFCC/)
 
 ### ToDo 
 - [x] Pass all FCC tests
@@ -12,7 +12,7 @@
   - [ ] style drop down
   - [ ] style radio 
   - [ ] style check box
-  - [ ] Title top border purple
+  - [x] Title top border purple
 
 
 ### Reference
