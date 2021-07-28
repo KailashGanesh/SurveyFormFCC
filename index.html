@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+    <script>
+        const projectName = 'survey-form';
+        // set project name for the test
+    </script>
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey</h1>
+    <p id="description"> This is a survey</p>
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your Name" required>
+        <label id="email-label">email</label>
+        <input id="email" type="email"  placeholder="Enter your Email" required>
+        <label id="number-label">Number</label>
+        <input id="number" name="age" type="number" placeholder="Enter your Age" min="10" max="99">
+
+        <label>Drop Down</label>
+        <select id="dropdown" type="submit" id="submit" value="Submit" required>
+            <option>hello</option>
+            <option>bye</option>
+        </select>
+
+        <div>
+            <p>would you recome fcc to a friend</p>
+            <label>
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>
+                Definitely
+            </label>
+            <label>
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>
+                Definitely
+            </label>
+        </div>
+
+            <label>
+                <input name="user-recommend" value="definitely" type="checkbox" class="input-radio" checked/>
+                Definitely
+            </label>
+            <label>
+                <input name="user-recommend" value="definitely" type="checkbox" class="input-radio" checked/>
+                Definitely
+            </label>
+
+
+            <p>any comments</p>
+            <textarea id="comments" class="input-textarea" name="comments" placeholder="Enter your comment here"></textarea>
+
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
