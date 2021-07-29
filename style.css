@@ -75,13 +75,15 @@ body{
     transform: 143ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
     width: 300px;
     padding: 5px;
+    resize: none;
+    font-weight: normal;
 }
 
 .text-box:focus{
     border-bottom: 3px solid var(--main-accent-color);
 }
 
-label{
+.question{
     margin-bottom: 12px;
 }
 
@@ -93,4 +95,15 @@ label{
     border: none;
     cursor: pointer;
     font-weight: 500;
+}
+
+.dropdown{
+    /* appearance: none; */
+    padding: 12px 18px 12px 18px;
+    border: 1px solid var(--gray-color);
+    cursor: pointer;
+}
+
+.dropdown:focus{
+    outline: none;
 }
