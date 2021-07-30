@@ -4,17 +4,17 @@
 - [x] Pass all FCC tests
 - [ ] Style page like google forms [sample forms](https://forms.gle/kRMEunV866b719dg7)
   - [ ] Font size reduce
-  - [ ] footer text size and weight
+  - [ ] footer text size,weight and color
   - [x] remove text box default style
   - [x] text box width increase all same size
   - [x] text box transition to purple color when clicked
-  - [ ] evenly space label and input
+  - [x] evenly space label and input
   - [x] style submit button 
-  - [ ] style drop down
+  - [x] style drop down
   - [ ] style radio 
   - [ ] style check box
   - [x] Title top border purple
-- [ ] Mobile responsive
+- [x] Mobile responsive
 
 
 ### Reference

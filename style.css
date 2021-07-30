@@ -62,12 +62,13 @@ form{
     /* max-width: 180vw; */
     /* width: 600px; */
     width: 90%;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
+
 
 .border-top-purple{
     border-top: 10px solid var(--main-accent-color);
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .required{
@@ -123,7 +124,7 @@ form{
 }
 
 .question{
-    margin-bottom: 12px;
+    margin-bottom: 17px;
 }
 
 .btn{
@@ -147,7 +148,8 @@ form{
     /* appearance: none; */
 
     display: block;
-    max-width: 320px;
+    max-width: 170px;
+    width: 100%;
     /* border: 1px solid #0ebeff; */
     background-image: none;
     -ms-word-break: normal;
@@ -159,7 +161,7 @@ form{
      display: none;
 }
 
-.dropdown::after {
+/* .dropdown::after {
     content: "\f13a";
     position: absolute;
     right: 0;
@@ -170,7 +172,7 @@ form{
     line-height: 31px;
     color: rgba(255, 255, 255, 0.5); 
     background-color: rgba(255, 255, 255, 0.1); 
-}
+} */
 
 .dropdown:focus{
     outline: none;
@@ -183,4 +185,19 @@ form{
 	top: -20px;
 	transition: 0.2s ease all;
 	font-size: 14px;
+}
+  */
+
+.submitDiv {
+    width: 90%;
+    /* background-color: var(--box-curved-color); */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    color: #b1adb7;
 }
