@@ -3,8 +3,8 @@
 ### ToDo 
 - [x] Pass all FCC tests
 - [ ] Style page like google forms [sample forms](https://forms.gle/kRMEunV866b719dg7)
-  - [ ] Font size reduce
-  - [ ] footer text size,weight and color
+  - [x] Font size reduce
+  - [x] footer text size,weight and color
   - [x] remove text box default style
   - [x] text box width increase all same size
   - [x] text box transition to purple color when clicked
